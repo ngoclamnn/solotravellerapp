@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SammyLoginApp.LoginPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Welcome to Xamarin Forms!" />
+            <Label Text="Login with your account"></Label>
+            <Entry x:Name="Username" Placeholder="Username here"></Entry>
+            <Entry x:Name="Password" Placeholder="Password here"></Entry>
+            <Button Clicked="Button_Clicked" Text="Login"></Button>
+            <Label Text="Or login with you social account"></Label>
+            <Button Clicked="Button_Clicked_1" Text="Continue with Facebook"></Button>
+            <Button Clicked="Button_Clicked_2" Text="Continue with Google"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
